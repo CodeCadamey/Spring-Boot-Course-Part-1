@@ -1,0 +1,24 @@
+
+Question 1.1
+    create an enum called Countries and add five countries randomly
+    create an enum called UserStatus and add necessary properties
+        - ACTIVE
+        - DISABLED
+        - BANNED
+        - NOT_BANNED
+Question 1.2
+    create an entity called "Seller" with the table name "SPRING_SELLER" and add all the properties of "Buyer" Entity plus
+    additional properties below
+        - storeName (String)
+        - totalProducts (Integer)
+        - totalScore (Integer)
+        - countriesThatSells (List<Countries>) - Enum
+        - sellerStatus (UserStatus) - Enum
+
+Question 1.3
+    - what is Hibernate + It's purpose
+    - what is JPA
+    - what's the purpose and properties of Serializable and when to use
+    - what's the functionality of @Entity annotation
+    - what's the functionality of @Service annotation
+    - what's the functionality of @ColumnDefault annotation
